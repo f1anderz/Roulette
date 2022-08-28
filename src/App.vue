@@ -5,15 +5,16 @@
 </template>
 
 <script>
+import Home from "@/pages/Home"
+import UI from "@/components/UI";
 
 export default {
-  components: {}
+  components: {Home, UI}
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
 * {
   margin: 0;
   padding: 0;
